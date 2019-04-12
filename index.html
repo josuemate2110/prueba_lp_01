@@ -4,60 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Ventas</title>
 </head>
 <body>
+    <main>
     <header>
-        <h1>Sistema de Ventas - Exa01</h1>
+            <img src="css/recursos/logoexa.png" width="110px">
+            <label id="titulo">Sistemas de Ventas - Exa01</label>
     </header>
     <nav>
             <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Ventas</a></li>
-                    <li><a href="#">Reportes</a></li>
-                    <li><a href="#">Clientes</a></li>
-                    <li><a href="#">Productos</a></li>
-                </ul>
+                <li class="navOptions">Inicio</li>
+                <li class="navOptions">Ventas</li>
+                <li class="navOptions">Reportes</li>
+                <li class="navOptions">Clientes</li>
+                <li class="navOptions">Productos</li>
+            </ul>
     </nav>
-    <main>
-            <table>
-                    <tr>
-                      <th>Codigo</th>
-                      <th>Nombre</th>
-                      <th>Apellidos</th>
-                    </tr>
-                    <tr>
-                      <td>Alfreds Futterkiste</td>
-                      <td>Maria Anders</td>
-                      <td>Germany</td>
-                    </tr>
-                    <tr>
-                      <td>Centro comercial Moctezuma</td>
-                      <td>Francisco Chang</td>
-                      <td>Mexico</td>
-                    </tr>
-                    <tr>
-                      <td>Ernst Handel</td>
-                      <td>Roland Mendel</td>
-                      <td>Austria</td>
-                    </tr>
-                    <tr>
-                      <td>Island Trading</td>
-                      <td>Helen Bennett</td>
-                      <td>UK</td>
-                    </tr>
-                    <tr>
-                      <td>Laughing Bacchus Winecellars</td>
-                      <td>Yoshi Tannamuri</td>
-                      <td>Canada</td>
-                    </tr>
-                    <tr>
-                      <td>Magazzini Alimentari Riuniti</td>
-                      <td>Giovanni Rovelli</td>
-                      <td>Italy</td>
-                    </tr>
-                  </table>
+    <aside class="cajon" id="inicio">
+            <label for="a">Bienvenido al Sistema</label>
+        </aside>
+        <aside class="cajon" id="clientes">
+            <section class="subtitulo"><label for="a">Clientes</label></section>
+            <table id="tb_clientes">
+                <thead>
+                        <th>Codigo</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>DNI</th>
+                        <th>Accion</th>
+                </thead>
+                <tr>
+                        <td>C001</td>
+                        <td>David</td>
+                        <td>Reyna</td>
+                        <td>33261202</td>
+                        <td>    </td>
+                      </tr>
+                      <tr>
+                        <td>C002</td>
+                        <td>Keyla</td>
+                        <td>De la Cruz</td>
+                        <td>38434838</td>
+                        <td>     </td>
+                      </tr>
+                      <tr>
+                        <td>C003</td>
+                        <td>Rolando</td>
+                        <td>Jimanez</td>
+                        <td>43493473</td>
+                        <td>     </td>
+                      </tr>
+                      <tr>
+                        <td>C004</td>
+                        <td>Lucas</td>
+                        <td>Ayala</td>
+                        <td>43942934</td>
+                        <td>      </td>
+                      </tr>
+                <tbody>
+
+                </tbody>
+            </table>
+        </aside>
+        <aside class="cajon" id="productos">
+            <section class="subtitulo"><label for="a">Productos</label></section>
+            <table id="tb_productos">
+                <thead>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Stock</th>
+                        <th>Accion</th>
+                </thead>
+                <tr>
+                        <td>C001</td>
+                        <td>David</td>
+                        <td>Reyna</td>
+                        <td>33261202</td>
+                        <td>    </td>
+                      </tr>
+                      <tr>
+                        <td>C002</td>
+                        <td>Keyla</td>
+                        <td>De la Cruz</td>
+                        <td>38434838</td>
+                        <td>     </td>
+                      </tr>
+                      <tr>
+                        <td>C003</td>
+                        <td>Rolando</td>
+                        <td>Jimanez</td>
+                        <td>43493473</td>
+                        <td>     </td>
+                      </tr>
+                      <tr>
+                        <td>C004</td>
+                        <td>Lucas</td>
+                        <td>Ayala</td>
+                        <td>43942934</td>
+                        <td>      </td>
+                      </tr>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </aside>
     </main>
     <footer></footer>
 </body>

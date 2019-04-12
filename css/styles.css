@@ -1,18 +1,81 @@
-body {
-    background-color: powderblue;
+body{
+    background-image: url("recursos/car.jpg");
+    width: 1280px;
+    height: 720px ;
 }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
+
+@font-face{
+    font-family: BadScript-Regular;
+    src: url("recursos/BadScript-Regular.ttf")
+}
+@font-face{
+    font-family: GreatVibes-Regular;
+    src: url("recursos/GreatVibes-Regular.ttf")
+}
+@font-face{
+    font-family: Oswald-Bold;
+    src: url("recursos/Oswald-Bold.ttf")
+}
+
+main{
+    width: 750px;
+    background-color: #ffffff;
+    margin: auto;
+    height: 510px;
+    margin-top: 50px;
+}
+
+header{
     width: 100%;
-  }
-  
-  td, th {
-    border: 30px solid black;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+    height: 110px;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+#titulo{
+    font-family: BadScript-Regular;
+    font-size: 40px;
+    vertical-align: top;
+    border-bottom: 2px solid;
+    border-bottom-color: #11579a;
+    color: #11579a;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: #2175bc;
+    height: 40px;
+    margin-top: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 12px;
+}
+
+nav a{
+    color: #aed5f2;
+    text-decoration: none;
+}
+
+.subtitulo{
+    font-family: BadScript-Regular;
+    font-size: 20px;
+    vertical-align: top;
+    color: #11579a;
+    width: 100%;
+    border-bottom: 2px solid;
+    border-bottom-color: #11579a;
+}
+
+table{
+    width: 80%;
+}
